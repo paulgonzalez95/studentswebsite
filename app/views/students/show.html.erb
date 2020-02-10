@@ -1,0 +1,9 @@
+
+<<hr>
+Student Record:
+  <%= @student.firstname %> <%= @student.lastname %>
+
+  <br/>
+  <br/>
+  <%= link_to 'Edit', edit_student_path(@student) %> |
+  <%= link_to 'Back to All Students', students_path %>
